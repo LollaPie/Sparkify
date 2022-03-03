@@ -27,12 +27,16 @@ The following packages are used:
 The repository contains one Jupyter notebook as well as a html version of it.
 
 ## Summary of the Results <a name="results"/>
+Historical data from 255 users is analysed. A Random Forest Classifier is used to predict churn users. The data is split into train, test and validation using a 3-fold cross validation. The figure below shows all feature importances.
 
+![Feature Importances of Random Forest Model](https://github.com/LollaPie/Sparkify/blob/main/fig11.png)
+
+Churn user have a shorter usage time than no-churn users. They do not use the app on weekends as much as other users. And they get more advertisement then no-churn users. Locations of users or operating systems do not play an important role for churn prediction.
 
 ## Blog Post <a name="post"/>
 Main findings and explanations can be found in my Medium post [here](https://medium.com).
 
-## Acknowledgements & Licensing <a name="acknowledgements--licensing>
-  I give credits to Udacity to provide the course and the data. The course was the best online course I did so fare. I appreciate the "hands-on" methodology very much.
+## Acknowledgements & Licensing <a name="acknowledgements--licensing"/>
+I give credits to Udacity to provide the course and the data. The course was the best online course I did so fare. I appreciate the "hands-on" methodology very much.
   
-  Feel free to use the code here as you would like. The data is provided by Udacity and it is not public.
+Feel free to use the code here as you would like. The data is provided by Udacity and it is not public.
