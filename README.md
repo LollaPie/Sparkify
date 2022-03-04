@@ -31,7 +31,7 @@ Historical data from 255 users is analysed. A Random Forest Classifier is used t
 
 ![Feature Importances of Random Forest Model](https://github.com/LollaPie/Sparkify/blob/main/fig11.png)
 
-Churn user have a shorter usage time than no-churn users. They do not use the app on weekends as much as other users. And they get more advertisement then no-churn users. Locations of users or operating systems do not play an important role for churn prediction.
+Churn user have a shorter usage time than no-churn users. They use more GET requests like settings, about and help. They do not use the app on weekends as much as other users. And they get more advertisement then no-churn users. Locations of users or operating systems do not play an important role for churn prediction.
 
 ## Blog Post <a name="post"/>
 Main findings and explanations can be found in my Medium post [here](https://medium.com).
