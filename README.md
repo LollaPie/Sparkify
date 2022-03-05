@@ -34,7 +34,7 @@ Historical data from 255 users is analysed. A Random Forest Classifier is used t
 Churn user have a shorter usage time than no-churn users. They use more GET requests like settings, about and help. They do not use the app on weekends as much as other users. And they get more advertisement then no-churn users. Locations of users or operating systems do not play an important role for churn prediction.
 
 ## Blog Post <a name="post"/>
-Main findings and explanations can be found in my Medium post [here](https://medium.com).
+Main findings and explanations can be found in my Medium post [here](https://medium.com/@Richard_49886/churn-prediction-with-pyspark-c3aa2ce8d138).
 
 ## Acknowledgements & Licensing <a name="acknowledgements--licensing"/>
 I give credits to Udacity to provide the course and the data. The course was the best online course I did so fare. I appreciate the "hands-on" methodology very much.
